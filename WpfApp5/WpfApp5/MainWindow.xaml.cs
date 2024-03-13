@@ -32,13 +32,13 @@ namespace WpfApp5
             if (e.Key == Key.Space)
             {
                 MainWindow window = new MainWindow();
-                System.Media.SoundPlayer sound = new System.Media.SoundPlayer("sound.wav");
+                //System.Media.SoundPlayer sound = new System.Media.SoundPlayer("sound.wav");
 
                 window.IMGG = IMGG;
                 window.bk.Source = IMGG;
                 window.Top = r.Next(0, 1000);
                 window.Left = r.Next(0, 1100);
-                sound.Play();
+                //sound.Play();
                 window.Show();
             }
             else if (e.Key == Key.E)
